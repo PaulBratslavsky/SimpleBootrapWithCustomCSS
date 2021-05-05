@@ -1,0 +1,29 @@
+
+.container,
+.container-fluid {
+  border: dashed 3px #9fa6b2;
+}
+
+.row {
+  border: dashed 3px crimson;
+}
+
+.row div {
+  border: dashed 3px #49596f;
+}
+
+.overlay {
+  background: pink;
+  opacity: 0.5;
+  position: fixed;
+  min-height: 100%;
+  bottom: 0;
+  left: 0;
+  right:0;
+  z-index: -1;
+}
+
+.overlay > div {
+  background: red;
+  margin: 2px;
+}

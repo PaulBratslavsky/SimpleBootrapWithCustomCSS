@@ -1,0 +1,17 @@
+a:link, a:visited {
+  color: var(--dark);
+  padding: var(--spaceXS) var(--spaceMD);
+  background: var(--light);
+  text-decoration: none;
+  border-radius: var(--roundLG);
+  transform: scale(1);
+  text-align: left;
+  text-transform: lowercase;
+}
+
+a:hover,
+a:active {
+  color: var(--negative);
+  background: var(--primaryHover);
+  transform: scale(1.1);
+}
